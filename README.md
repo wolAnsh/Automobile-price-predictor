@@ -11,17 +11,17 @@ This project is a web application that predicts automobile prices using a machin
 
 The machine learning model was designed and trained using Azure Machine Learning. Below is a visual representation of the model's architecture:
 
-![Model Design](assets/images/Azure_ML_pipeline.png)
+![Model Design](assets/Azure_ML_pipeline.png)
 
 ## Web Application Interface
 
 Users can input vehicle details through the web interface:
 
-![Web App Input](assets/images/Input_Azure_ML.png)
+![Web App Input](assets/Input_Azure_ML.png)
 
 Upon submission, the application displays the predicted price:
 
-![Web App Output](assets/images/Output_Azure_ML.png)
+![Web App Output](assets/Output_Azure_ML.png)
 
 ## Prerequisites
 
