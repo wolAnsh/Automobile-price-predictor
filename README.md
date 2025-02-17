@@ -30,12 +30,3 @@ Upon submission, the application displays the predicted price:
 - Requests library
 - An active Azure Machine Learning endpoint
 
-**Note:** Ensure your `app.py` does not contain hard-coded API keys or sensitive information.
-
-## Setup Instructions
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/automobile-price-predictor.git
-   cd automobile-price-predictor
