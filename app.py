@@ -4,8 +4,8 @@ import json
 
 app = Flask(__name__)
 
-SCORING_URI = "http://387b4c4d-f0d0-4b0a-a677-42b7089bd248.centralindia.azurecontainer.io/score"
-API_KEY = "tDc6Qe8J9UpZfUmwRqYCXxApvoa33S7f"
+SCORING_URI = "YOUR_ENDPOINT_URL"
+API_KEY = "YOUR_API_KEY"
 
 headers = {
     "Content-Type": "application/json",
