@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Azure ML JSON Input</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='CSS/styles.css') }}">
+</head>
+<body>
+  <h1>Enter JSON Payload for Prediction</h1>
+  <form method="POST">
+    <textarea name="json_input" rows="20" cols="80" required ></textarea>
+    <br>
+    <button type="submit">Submit JSON</button>
+  </form>
+
+  {% if result %}
+    <h2>Response from Azure ML:</h2>
+    <pre>{{ result | tojson(indent=2) }}</pre>
+  {% endif %}
+</body>
+</html>
